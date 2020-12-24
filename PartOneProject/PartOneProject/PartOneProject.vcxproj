@@ -139,6 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HighState.cpp" />
+    <ClCompile Include="LowState.cpp" />
+    <ClCompile Include="MiddleState.cpp" />
     <ClCompile Include="PartOneProject.cpp" />
     <ClCompile Include="Pattens\Adapter_Class.cpp" />
     <ClCompile Include="Pattens\Adapter_Instance.cpp" />
@@ -157,9 +160,17 @@
     <ClCompile Include="Pattens\Strategy.cpp" />
     <ClCompile Include="Pattens\TemplateFunction.cpp" />
     <ClCompile Include="Pattens\VirturlFactory.cpp" />
+    <ClCompile Include="ScoreContext.cpp" />
+    <ClCompile Include="ScoreState.cpp" />
+    <ClCompile Include="State.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HighState.h" />
+    <ClInclude Include="LowState.h" />
+    <ClInclude Include="MiddleState.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="ScoreContext.h" />
+    <ClInclude Include="ScoreState.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="PartOneProject.rc" />

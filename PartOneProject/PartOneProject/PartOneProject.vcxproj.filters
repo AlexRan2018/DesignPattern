@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Pattens">
       <UniqueIdentifier>{a5e0542a-2038-4646-b9bc-59211a835c99}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\StatePattenClass">
+      <UniqueIdentifier>{8e46982c-aefc-47d4-8416-2ee4e2207794}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PartOneProject.cpp">
@@ -72,10 +75,43 @@
     <ClCompile Include="Pattens\VirturlFactory.cpp">
       <Filter>Source Files\Pattens</Filter>
     </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreContext.cpp">
+      <Filter>Source Files\StatePattenClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreState.cpp">
+      <Filter>Source Files\StatePattenClass</Filter>
+    </ClCompile>
+    <ClCompile Include="HighState.cpp">
+      <Filter>Source Files\StatePattenClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleState.cpp">
+      <Filter>Source Files\StatePattenClass</Filter>
+    </ClCompile>
+    <ClCompile Include="LowState.cpp">
+      <Filter>Source Files\StatePattenClass</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ScoreContext.h">
+      <Filter>Source Files\StatePattenClass</Filter>
+    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreState.h">
+      <Filter>Source Files\StatePattenClass</Filter>
+    </ClInclude>
+    <ClInclude Include="HighState.h">
+      <Filter>Source Files\StatePattenClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleState.h">
+      <Filter>Source Files\StatePattenClass</Filter>
+    </ClInclude>
+    <ClInclude Include="LowState.h">
+      <Filter>Source Files\StatePattenClass</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
