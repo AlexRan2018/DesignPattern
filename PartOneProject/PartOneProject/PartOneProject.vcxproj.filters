@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Pattens">
+      <UniqueIdentifier>{a5e0542a-2038-4646-b9bc-59211a835c99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PartOneProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Adapter_Class.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Adapter_Instance.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Bridge.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Builder.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\ChainOfResposibility.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Command.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Composite.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Decorator.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Facade.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\FactoryMethod.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\FlyWeight.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Observer.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Prototype.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Singleton.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\Strategy.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\TemplateFunction.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattens\VirturlFactory.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PartOneProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

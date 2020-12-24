@@ -1,0 +1,20 @@
+﻿  PartOneProject.cpp
+  Adapter_Class.cpp
+  Adapter_Instance.cpp
+  Bridge.cpp
+  Builder.cpp
+  ChainOfResposibility.cpp
+  Command.cpp
+  Composite.cpp
+  Decorator.cpp
+  Facade.cpp
+  FactoryMethod.cpp
+  FlyWeight.cpp
+  Observer.cpp
+  Prototype.cpp
+  Singleton.cpp
+  Strategy.cpp
+  TemplateFunction.cpp
+  VirturlFactory.cpp
+  Generating Code...
+  PartOneProject.vcxproj -> G:\MyGitHubProjects\DesignPattern\PartOneProject\Debug\PartOneProject.exe
