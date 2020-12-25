@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HighState.cpp" />
+    <ClCompile Include="Interpreter.cpp" />
     <ClCompile Include="LowState.cpp" />
     <ClCompile Include="MiddleState.cpp" />
     <ClCompile Include="PartOneProject.cpp" />

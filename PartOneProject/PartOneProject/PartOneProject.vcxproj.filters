@@ -93,6 +93,9 @@
     <ClCompile Include="LowState.cpp">
       <Filter>Source Files\StatePattenClass</Filter>
     </ClCompile>
+    <ClCompile Include="Interpreter.cpp">
+      <Filter>Source Files\Pattens</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ScoreContext.h">
